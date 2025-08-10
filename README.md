@@ -29,12 +29,6 @@ book.api/
 ├── package.json # Dependencies and scripts
 └── README.md # Documentation
 
-yaml
-Copy
-Edit
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -42,14 +36,8 @@ Edit
 git clone https://github.com/your-username/book.api.git
 cd book.api
 2️⃣ Install Dependencies
-bash
-Copy
-Edit
 npm install
 3️⃣ Run the Server
-bash
-Copy
-Edit
 node server.js
 🌐 API Endpoints
 Method	Endpoint	Description
@@ -69,8 +57,6 @@ Select the HTTP method (GET, POST, PUT, DELETE).
 For POST & PUT requests, send JSON data in the body, e.g.:
 
 json
-Copy
-Edit
 {
   "title": "The Great Gatsby",
   "author": "F. Scott Fitzgerald"
